@@ -4,6 +4,9 @@
   "displayName": "ME.ECS GOAP",
   "description": "ME.ECS GOAP Package.",
   "unity": "2020.3",
+  "ecsdependencies": [
+    "com.me.ecs.fpmath"
+  ],
   "dependencies": {
     "com.unity.collections": "1.0.0-pre.6",
     "com.unity.ui": "1.0.0-preview.18",
