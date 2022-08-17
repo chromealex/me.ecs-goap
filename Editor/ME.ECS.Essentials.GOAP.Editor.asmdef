@@ -10,7 +10,8 @@
         "ME.Pools",
         "Unity.Mathematics",
         "ME.ECS.Essentials.GOAP",
-        "UnityEngine.UIElementsModule"
+        "UnityEngine.UIElementsModule",
+        "ME.ECS.Transform"
     ],
     "includePlatforms": [
         "Editor"
