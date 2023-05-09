@@ -12,8 +12,8 @@ namespace ME.ECS.Essentials.GOAP {
 
     using Collections;
     using Unity.Collections;
-    using Collections.V3;
-    using Collections.MemoryAllocator;
+    using Collections.LowLevel.Unsafe;
+    using Collections.LowLevel;
     
     public struct Action {
 

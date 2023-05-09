@@ -1,8 +1,8 @@
 namespace ME.ECS.Essentials.GOAP {
 
     using ME.ECS.Collections;
-    using Collections.V3;
-    using Collections.MemoryAllocator;
+    using Collections.LowLevel.Unsafe;
+    using Collections.LowLevel;
 
     [System.Serializable]
     public struct ConditionsData {
