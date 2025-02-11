@@ -93,7 +93,7 @@ namespace ME.ECS.Essentials.GOAP {
 
             var pos = agent.GetPosition();
             Entity nearest = default;
-            var dist = sfloat.MaxValue;
+            var dist = float.MaxValue;
             foreach (var obj in this.filter) {
 
                 var d = math.distancesq(obj.GetPosition(), pos);
